@@ -4,20 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="/resources/navmenu/css/common.css" type="text/css" rel="stylesheet">
-<link href="/resources/navmenu/css/bootstrap-touch-slider.css" type="text/css" rel="stylesheet">
-<link href="/resources/navmenu/css/jquery.fullPage.css" type="text/css" rel="stylesheet">
+<link href="/resources/demomenu/css/common.css" type="text/css" rel="stylesheet">
+<link href="/resources/demomenu/css/bootstrap-touch-slider.css" type="text/css" rel="stylesheet">
+<link href="/resources/demomenu/css/jquery.fullPage.css" type="text/css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
 <title>반응형 네비게이션 메뉴</title>
 
-<script type="text/javascript" src="/resources/navmenu/js/jquery.js"></script>
-<script type="text/javascript" src="/resources/navmenu/js/common.js"></script>
-<script type="text/javascript" src="/resources/navmenu/js/bootstrap-touch-slider-min.js"></script>
-<script type="text/javascript" src="/resources/navmenu/js/bootstrap-touch-slider.js"></script>
-<script type="text/javascript" src="/resources/navmenu/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/resources/navmenu/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="/resources/demomenu/js/jquery.js"></script>
+<script type="text/javascript" src="/resources/demomenu/js/common.js"></script>
+<script type="text/javascript" src="/resources/demomenu/js/bootstrap-touch-slider-min.js"></script>
+<script type="text/javascript" src="/resources/demomenu/js/bootstrap-touch-slider.js"></script>
+<script type="text/javascript" src="/resources/demomenu/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/resources/demomenu/js/jquery.fullPage.js"></script>
 
 </head>
 
@@ -31,7 +31,7 @@
 					<div class="menu_btn_bar bottom"></div>
 				</div>
 				<div class="logo_wrap">
-					<img alt="Logo" src="/resources/navmenu/images/logo.jpg">
+					<img alt="Logo" src="/resources/demomenu/images/logo.jpg">
 				</div>
 				
 				<div class="nav_wrap">
@@ -98,7 +98,7 @@
 	                <div class="item active">
 	
 	                    <!-- Slide Background -->
-	                    <img src="/resources/navmenu/images/main1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+	                    <img src="/resources/demomenu/images/main1.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
 	                    <div class="bs-slider-overlay"></div>
 	
 	                    <div class="container">
@@ -115,7 +115,7 @@
 	                <div class="item">
 	
 	                    <!-- Slide Background -->
-	                    <img src="/resources/navmenu/images/main2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+	                    <img src="/resources/demomenu/images/main2.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
 	                    <div class="bs-slider-overlay"></div>
 	                    
 	                    <div class="container">
@@ -132,7 +132,7 @@
 	                <div class="item">
 	
 	                    <!-- Slide Background -->
-	                    <img src="/resources/navmenu/images/main3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
+	                    <img src="/resources/demomenu/images/main3.jpg" alt="Bootstrap Touch Slider"  class="slide-image"/>
 	                    <div class="bs-slider-overlay"></div>
 	                    
 	                    <div class="container">
@@ -146,21 +146,28 @@
 	                <!-- End of Slide -->
 	                
 	                <div class="main_sub_wrap">
-       					<div class="container">
-       						<div class="main_sub_inner">
-	       						<div class="main_sub_content m_s_w_1">
-	       							사업1
-	       						</div>
-	       						<div class="main_sub_content m_s_w_2">
-	       							사업1
-	       						</div>
-	       						<div class="main_sub_content m_s_w_3">
-	       							사업1
-	       						</div>
-	       						<div class="main_sub_content m_s_w_4">
-	       							사업1
-	       						</div>
-       						</div>
+       					<div class="main_sub_inner">
+	       					<div class="main_sub_content m_s_w_1">
+	       						<p>
+	       							<i class="material-icons">&#xE051;</i>
+	       							<span>Business 1</span>
+	       							<a href="#">More.</a>
+	       						</p>
+	       					</div>
+	       					<div class="main_sub_content m_s_w_2">
+	       						<p>
+	       							<i class="material-icons">&#xE0E1;</i>
+	       							<span>Business 2</span>
+	       							<a href="#">More.</a>
+	       						</p>
+	       					</div>
+	       					<div class="main_sub_content m_s_w_3">
+	       						<p>
+	       							<i class="material-icons">&#xE1B1;</i>
+	       							<span>Business 3</span>
+	       							<a href="#">More.</a>
+	       						</p>
+	       					</div>
        					</div>
        				</div>
        		
@@ -173,7 +180,44 @@
 		
 		
 		<section id="section" class="section02 sections">
-			Section 02 소개
+			<div class="container">
+				<div class="section_ineer">
+					<h3 class="section_tit">회사명 이란</h3>
+					<span class="section_sub_tit">회사 브랜드 설명</span>
+					
+					<div class="section_inner_wrap">
+						<div class="s_i_w_content s_i_w_1">
+							<p>
+								<span>Plan No.1</span>
+								<span>설명</span>
+							</p>
+						</div>
+						<div class="s_i_w_content s_i_w_2">
+							<p>
+								<span>Plan No.1</span>
+								<span>설명</span>
+							</p>
+						</div>
+						<div class="s_i_w_content s_i_w_3">
+							<p>
+								<span>Plan No.1</span>
+								<span>설명</span>
+							</p>
+						</div>
+						<div class="s_i_w_content s_i_w_4">
+							<p>
+								<span>아이콘</span>
+								<span>Plan No.1</span>
+								<span>설명</span>
+								<span>설명</span>
+								<span>설명</span>
+								<span>설명</span>
+								<span>설명</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section id="section" class="section03 sections">
 			Section 03 사업
@@ -190,7 +234,7 @@
 		<div class="footer_wrap">
 			<div class="footer_inner">
 				<div class="f_w_i_logo">
-					<img alt="Logo" src="/resources/navmenu/images/240,97.jpg">
+					<img alt="Logo" src="/resources/demomenu/images/240,97.jpg">
 				</div>
 			</div>
 			<div class="footer_inner">

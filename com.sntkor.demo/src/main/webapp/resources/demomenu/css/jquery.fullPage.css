@@ -1,4 +1,4 @@
-/*!
+1/*!
  * fullPage 2.9.5
  * https://github.com/alvarotrigo/fullPage.js
  * MIT licensed
@@ -150,13 +150,14 @@ html.fp-enabled,
     height: 100%;
     cursor: pointer;
     text-decoration: none;
+    color: #fff;
 }
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 17px;
-    width: 100px;
+    height: 24px;
+    width: 110px;
     border-radius: 14px;
     position: absolute;
     left: -400%;
@@ -167,7 +168,7 @@ html.fp-enabled,
 	font-size: 12px;
 	font-weight: 700;
 	text-align: center;
-	line-height: 17px;
+	line-height: 24px;
 }
 #fp-nav ul li:nth-child(2) a.active span::after{
 	content: "우리들의 소개";
@@ -175,7 +176,7 @@ html.fp-enabled,
 	font-size: 12px;
 	font-weight: 700;
 	text-align: center;
-	line-height: 17px;
+	line-height: 24px;
 }
 #fp-nav ul li:nth-child(3) a.active span::after{
 	content: "우리들의 사업";
@@ -183,7 +184,7 @@ html.fp-enabled,
 	font-size: 12px;
 	font-weight: 700;
 	text-align: center;
-	line-height: 17px;
+	line-height: 24px;
 }
 #fp-nav ul li:nth-child(4) a.active span::after{
 	content: "고객의 소리";
@@ -191,20 +192,20 @@ html.fp-enabled,
 	font-size: 12px;
 	font-weight: 700;
 	text-align: center;
-	line-height: 17px;
+	line-height: 24px;
 }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     border: 0;
-    background: rgba(255,255,255,.5);
+    background: #274c5e;
     left: 50%;
     top: 50%;
-    margin: -2px 0 0 -2px;
+    margin: -5px 0 0 -5px;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
