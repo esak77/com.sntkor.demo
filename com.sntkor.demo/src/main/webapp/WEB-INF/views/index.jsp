@@ -145,31 +145,6 @@
 	                </div>
 	                <!-- End of Slide -->
 	                
-	                <div class="main_sub_wrap">
-       					<div class="main_sub_inner">
-	       					<div class="main_sub_content m_s_w_1">
-	       						<p>
-	       							<i class="material-icons">&#xE051;</i>
-	       							<span>Business 1</span>
-	       							<a href="#">More.</a>
-	       						</p>
-	       					</div>
-	       					<div class="main_sub_content m_s_w_2">
-	       						<p>
-	       							<i class="material-icons">&#xE0E1;</i>
-	       							<span>Business 2</span>
-	       							<a href="#">More.</a>
-	       						</p>
-	       					</div>
-	       					<div class="main_sub_content m_s_w_3">
-	       						<p>
-	       							<i class="material-icons">&#xE1B1;</i>
-	       							<span>Business 3</span>
-	       							<a href="#">More.</a>
-	       						</p>
-	       					</div>
-       					</div>
-       				</div>
        		
 	            </div><!-- End of Wrapper For Slides -->
        		</div> <!-- End  bootstrap-touch-slider Slider -->
@@ -182,29 +157,29 @@
 		<section id="section" class="section02 sections">
 			<div class="container">
 				<div class="section_ineer">
-					<h3 class="section_tit">회사명 이란</h3>
-					<span class="section_sub_tit">회사 브랜드 설명</span>
+					<h3 class="section_tit">SNT Korea</h3>
+					<span class="section_sub_tit">Start your buisness with SNT Korea</span>
 					
 					<div class="section_inner_wrap">
-						<div class="s_i_w_content s_i_w_1">
+						<div class="s_i_w_content s_i_w_area" id="s_i_w_1">
 							<p>
 								<span>Plan No.1</span>
 								<span>설명</span>
 							</p>
 						</div>
-						<div class="s_i_w_content s_i_w_2">
+						<div class="s_i_w_content s_i_w_area" id="s_i_w_2">
 							<p>
 								<span>Plan No.1</span>
 								<span>설명</span>
 							</p>
 						</div>
-						<div class="s_i_w_content s_i_w_3">
+						<div class="s_i_w_content s_i_w_area" id="s_i_w_3">
 							<p>
 								<span>Plan No.1</span>
 								<span>설명</span>
 							</p>
 						</div>
-						<div class="s_i_w_content s_i_w_4">
+						<div class="s_i_w_content s_i_w_area" id="s_i_w_4">
 							<p>
 								<span>아이콘</span>
 								<span>Plan No.1</span>
@@ -215,6 +190,34 @@
 								<span>설명</span>
 							</p>
 						</div>
+					</div>
+					<div class="modal">
+						<i class="material-icons close">close</i>
+						<div class="modal_inner">
+							<div class="modal_nav">
+								<ul>
+									<li class="active"><span>메뉴1</span></li>
+									<li><span>메뉴2</span></li>
+									<li><span>메뉴3</span></li>
+									<li><span>메뉴4</span></li>
+								</ul>
+							</div>
+							<div class="modal_content"> 
+								<div class="modal_content1">
+									<p>메뉴1 본문</p>
+								</div>
+								<div class="modal_content2">
+									<p>메뉴2 본문</p>
+								</div>
+								<div class="modal_content3">
+									<p>메뉴3 본문</p>
+								</div>
+								<div class="modal_content4">
+									<p>메뉴4 본문</p>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>

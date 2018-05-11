@@ -84,24 +84,57 @@ $(function(){
 		$("html, body").animate({ scrollTop: 0 }, 1000);
 			return false;
 	});
+	
 	$(document).scroll(function(){
 		fix_footer();
 	});
+
+	
+	//모달창
+	$(".modal").hide();
+	$(".s_i_w_area, .modal_nav > ul > li").on("click",function(){
+		var m_index = $(this).index();
+		var m_length = $(".s_i_w_area").length;
+		var m_n_index = $(this).index();
+		
+		modal(m_index, m_length, m_n_index);
+	})
+	
+	$(".close").on("click",function(){
+		var idx = $(".modal").attr("class"); 
+		if(idx.match("show")){
+			$(".modal").hide();
+			$(".modal").removeClass("show");
+		}else{
+			return false;
+		}
+	})
+	
 })
-	function fix_footer() {
-		var $doc = $(document);
-		var section4 = $('.section04').offset().top - $(window).scrollTop();
-		if(section4 >=0 && section4 < 1 ){ //0.8
-			$('#footer').addClass("fixed");
-		} else {
-			$('#footer').removeClass('fixed');
+
+
+function fix_footer() {
+	var $doc = $(document);
+	var section4 = $('.section04').offset().top - $(window).scrollTop();
+	if(section4 >=0 && section4 < 1 ){ //0.8
+		$('#footer').addClass("fixed");
+	} else {
+		$('#footer').removeClass('fixed');
+	}
+}
+
+function modal(index, idx, n_index){
+	$(".modal").fadeIn(300);
+	$(".modal").addClass("show");
+	$(".modal_content > div").hide();
+	
+	$(".modal_nav > ul > li").removeClass("active");
+	
+	for(var i=0; i<idx; i++){
+		if(index == i){
+			$(".modal_content"+(i+1)).show();
+			$(".modal_nav > ul > li:nth-child("+(i+1)+")").addClass("active");
 		}
 	}
-
-
-
-
-
-
-
+}
 
