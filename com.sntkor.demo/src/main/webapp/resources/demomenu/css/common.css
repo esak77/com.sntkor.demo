@@ -221,6 +221,7 @@ a,a:active, a:hover{
 	cursor: pointer;
 	box-shadow: 1px 1px 15px rgba(13,13,13,.5);
 	border-radius: 10px;
+	z-index: 999;
 }
 .s_i_w_content p span{
 	display: block;
@@ -236,6 +237,7 @@ a,a:active, a:hover{
 .s_i_w_content:hover p span{
 	color: #FFFFF3;	
 }
+
 
 .section03{
 	background: url("/resources/demomenu/images/section3.jpg") 50% no-repeat;

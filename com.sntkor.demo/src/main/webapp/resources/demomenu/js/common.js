@@ -46,8 +46,8 @@ $(function(){
 	})
 	
 	$(".wrap, #footer").on("click",function(){
-		var str=$("#header").attr("class");
-		if(str.match("active")){
+		
+		if($("#header").hasClass("active")===true){
 			$(".menu_btn_bar.top").css("transform","translateY(-0px) rotateZ(0deg)");
 			$(".menu_btn_bar.middle").css("width","90%");
 			$(".menu_btn_bar.bottom").css("transform","translateY(-0px) rotateZ(0deg)");
@@ -109,6 +109,11 @@ $(function(){
 			return false;
 		}
 	})
+	
+	$(".wrap").on("click",function(){
+		console.log("test");
+	})
+	
 	
 })
 

@@ -42,7 +42,7 @@
 						<li class="nav_memu_li bb bt ">
 							<span>Sub 1</span>
 							<ul class="sub_nav_memnu">
-								<li><a>sub_1_1</a></li>
+								<li><a href="/page">sub_1_1</a></li>
 								<li><a>sub_1_2</a></li>
 								<li><a>sub_1_3</a></li>
 							</ul>

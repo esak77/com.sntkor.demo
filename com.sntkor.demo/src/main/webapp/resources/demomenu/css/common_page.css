@@ -1,0 +1,30 @@
+@charset "UTF-8";
+html,body{
+	margin: 0;
+	height: 100%;
+	font-family: "맑은 고딕", "Malgun Gothic","Nanum Gothic";
+}
+
+.wrap{
+	width: 100%;
+}
+.section{
+	width: 100%;
+}
+#section01{
+	background-color: red;
+}
+#section02{
+	background-color: orange;
+}
+#section03{
+	background-color: yellow;
+}
+#section04{
+	background-color: green;
+}
+	
+
+
+
+

@@ -18,5 +18,8 @@ public class DemoController {
 	public String home(Locale locale, Model model) {
 		return "index";
 	}
-	
+	@RequestMapping(value = "/page", method = RequestMethod.GET)
+	public String page(Locale locale, Model model) {
+		return "page";
+	}
 }
