@@ -1,19 +1,52 @@
 @charset "UTF-8";
-html,body{
-	margin: 0;
-	height: 100%;
-	font-family: "맑은 고딕", "Malgun Gothic","Nanum Gothic";
-}
-
+html,body{margin: 0;height: 100%;font-family: "맑은 고딕", "Malgun Gothic","Nanum Gothic";}
+ul{padding: 0;margin: 0;list-style: none;}
+.row{width: 1200px; margin: 0 auto; position: relative;}
 .wrap{
-	width: 100%;
+	max-width: 100%;
 }
 .section{
 	width: 100%;
+	position: relative;
+	overflow: hidden;
 }
 #section01{
-	background-color: red;
+	background-color: #ebebeb;
 }
+.header{
+	border: 1px solid red;
+	max-width: 100%;
+	height: 100px;
+}
+.logo{
+	width: 250px;
+	height: 80px;
+	line-height : 80px;
+	border: 1px solid red;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid blue;
+}
+.nav{
+	
+}
+
+.test_area{
+	width: 100%;
+	height: 500px;
+	border: 1px solid red;
+}
+.test{
+	width: 150px;
+	height: 10px;
+	background-color: #fff;
+	display: block;
+	margin-bottom: 15px;
+}
+
 #section02{
 	background-color: orange;
 }
