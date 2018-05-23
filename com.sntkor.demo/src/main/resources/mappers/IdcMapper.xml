@@ -14,4 +14,8 @@
 	<select id="list" resultType="IdcVO">
 		select * from idc
 	</select>
+	
+	<select id="detail" resultType="IdcVO" parameterType="int">
+		select * from idc where idx = #{idx}
+	</select>
 </mapper>

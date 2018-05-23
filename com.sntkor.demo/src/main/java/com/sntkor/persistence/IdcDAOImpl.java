@@ -26,6 +26,11 @@ public class IdcDAOImpl implements IdcDAO{
 	public List<IdcVO> list() throws Exception {
 		return session.selectList(namespace+".list");
 	}
+
+	@Override
+	public IdcVO detail(int idx) throws Exception {
+		return session.selectOne(namespace+".detail", idx);
+	}
 	
 	
 	

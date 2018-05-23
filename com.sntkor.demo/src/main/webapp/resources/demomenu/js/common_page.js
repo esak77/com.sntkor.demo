@@ -1,7 +1,7 @@
 $(function(){
-	$(".wrap, .section").height($(window).height());
+	//$(".wrap, .section").height($(window).height());
 	
-	$(".section").each(function () {
+	/*$(".section").each(function () {
         // 개별적으로 Wheel 이벤트 적용
         $(this).on("mousewheel DOMMouseScroll", function (e) {
             e.preventDefault();
@@ -31,8 +31,12 @@ $(function(){
                 }
             });
         });
-    });
+    });*/
 	
+	console.log(typeof($(".rack_1").offset().top) + " : "+$(".rack_1").offset().left);
+	$(".test_1").offset({
+		left : $(".rack_1").offset().left
+	})
 })
 
 
@@ -44,16 +48,17 @@ function new_add(){
 		data : form,
 		dataType : "text",
 		success : function(data) {
-			
 			// 갯수 구하기
 			var idx = $(".test").length+1;
 			var tag = "<span class='test test_"+idx+"'"+"onmouseenter='move();' ondblclick='info();'>server_"+idx+"</span>";
-			$(".test_area").append(tag);
+			$(".t_content_add").append(tag);
 			$("#company, #vender").text("");
 		}
 	});
 }
-
+function rack_add(){
+	
+}
 function move(){
 	var idx = $(".test").length;
 	for(var i=1; i<=idx; i++){
@@ -65,8 +70,8 @@ function move(){
 	}
 }
 function info(idx){
-	var vender = $(".test_"+idx).text();
-	console.log(vender+" : "+idx);
+	console.log(idx + " : " + typeof(idx));
+	window.open("/detail?idx="+idx,"_blank","width=400,height=300");
 }
 
 

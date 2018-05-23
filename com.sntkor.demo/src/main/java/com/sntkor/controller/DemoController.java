@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.sntkor.domain.IdcVO;
 import com.sntkor.service.IdcService;
@@ -38,5 +39,9 @@ public class DemoController {
 	public String main(IdcVO vo, Model model) throws Exception{
 		service.insert(vo);
 		return "redirect:/page";
+	}
+	@RequestMapping(value="/detail", method= {RequestMethod.GET})
+	public void detail(Model model, @RequestParam int idx) throws Exception{
+		model.addAttribute("detail", service.detail(idx));
 	}
 }

@@ -26,5 +26,10 @@ public class IdcServiceImpl implements IdcService {
 		return dao.list();
 	}
 	
+	@Override
+	public IdcVO detail(int idx) throws Exception {
+		return dao.detail(idx);
+	}
+	
 	
 }
